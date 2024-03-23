@@ -1,16 +1,15 @@
+from math import pow,sqrt
 
-import math
+x1=eval(input())
+y1=eval(input())
+x2=eval(input())
+y2=eval(input())
 
-x1=float(input())
-x2=float(input())
-y1=float(input())
-y2=float(input())
+x_pow=pow(x1-x2,2)
+y_pow=pow(y1-y2,2)
+sum1=x_pow+y_pow
+sqrt1=sqrt(sum1)
 
-x_pow=(x1-x2)**2
-y_pow=(y1-y2)**2
-sum=x_pow+y_pow
-sqrt=math.sqrt(sum)
-
-print("({:.4f} , {:.4f})".format(x1,y1))
-print("({:.4f} , {:.4f})".format(x2,y2))
-print("Distance = {:.4f}".format(sqrt))
+print("( {:} , {:} )".format(x1,y1))
+print("( {:} , {:} )".format(x2,y2))
+print("Distance = {:.4f}".format(sqrt1))

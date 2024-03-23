@@ -1,11 +1,10 @@
-
-import math
+from math import pi,pow
 
 radius=float(input())
 
-pi=math.pi
 perimeter = 2*pi*radius
-area = pi*radius**2
+area = pi*pow(radius,2)
+
 
 print("Radius = {:.2f}".format(radius))
 print("Perimeter = {:.2f}".format(perimeter))

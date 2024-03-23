@@ -1,11 +1,7 @@
+from math import pi, tan, pow
 
-import math
+n = eval(input())
+s = eval(input())
 
-n=eval(input())
-s=eval(input())
-
-pi=math.pi
-tanN=math.tan(pi/n)
-area=n*(s**2)/4*tanN
-
-print("Area = {:.4f}".format(area))
+area = (n * pow(s, 2))/(4 * tan(pi/n))
+print('Area = {:.4f}'.format(area))
