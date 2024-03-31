@@ -6,13 +6,9 @@ fn main(){
     let x1: f64 = input.trim().parse().unwrap();
     input.clear();
     io::stdin().read_line(&mut input).unwrap();
-    let x2: f64 = input.trim().parse().unwrap();
-    input.clear();
-    io::stdin().read_line(&mut input).unwrap();
     let y1: f64 = input.trim().parse().unwrap();
-    input.clear();
-    io::stdin().read_line(&mut input).unwrap();
-    let y2: f64 = input.trim().parse().unwrap();
+    let x2: f64 = 5.0;
+    let y2: f64 = 6.0;
     
     let x_pow: f64 = (x1-x2).powi(2);
     let y_pow: f64 = (y1-y2).powi(2);

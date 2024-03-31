@@ -1,10 +1,10 @@
 in1=eval(input())
 
-if in1>=80:
+if(80<=in1):
     print("A")
-elif in1>=70:
+elif(70<=in1>=79):
     print("B")
-elif in1>=60:
+elif(60<=in1>=69):
     print("C")
 else:
     print("F")

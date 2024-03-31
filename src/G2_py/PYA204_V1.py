@@ -3,17 +3,17 @@ in2=eval(input())
 op=input()
 output=0
 
-if op == "+":
+if(op == "+"):
     output=in1+in2
-elif op == "-":
+elif(op == "-"):
     output=in1-in2
-elif op == "*":
+elif(op == "*"):
     output=in1*in2
-elif op == "/":
+elif(op == "/"):
     output=in1/in2
-elif op == "//":
+elif(op == "//"):
     output=in1//in2
-elif op == "%":
+elif(op == "%"):
     output=in1%in2
     
 print("{:}".format(output))

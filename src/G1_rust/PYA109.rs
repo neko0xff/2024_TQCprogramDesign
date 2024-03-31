@@ -8,7 +8,7 @@ fn main(){
 
     let n: f64 = 5 as f64;
     let tan_n: f64 = (PI/n).tan();
-    let area: f64 = (n*s.powi(2))/(4.0*tan_n);
+    let area: f64 = (n*s).powi(2)/(4.0*tan_n);
 
     println!("Area = {:.4}",area);
 }
